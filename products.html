@@ -7,9 +7,10 @@ title: Productos
 
 <p> Estos son nuestros productos, hechos con amor.</p>
 
-{% include product-overview.html product-id="afl-3.0" %}
-{% include product-overview.html product-id="afl-3.0" %}
-{% include product-overview.html product-id="afl-3.0" %}
-{% include product-overview.html product-id="afl-3.0" %}
-{% include product-overview.html product-id="afl-3.0" %}
+{% for product in site.products %}
+
+  {% include product-overview.html product-id="afl-3.0" %}
+
+{% endfor %}
+
 
