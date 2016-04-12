@@ -2,9 +2,9 @@
   <ol>
     <li>
       {% if page.layout == "product" %}
-        <a href="/">Home</a> / <a href="/products/">Licenses</a>
+        <a href="/">Principal</a> / <a href="/products/">Productos</a>
       {% else %}
-        <a href="/">Home</a>
+        <a href="/">Principal</a>
       {% endif %}
     </li>
   </ol>
@@ -24,7 +24,7 @@
       "position": 2,
       "item": {
         "@id": "{{ site.github.url }}/products",
-        "name": "Licenses"
+        "name": "Productos"
       }
     },{% endif %}{
       "@type": "ListItem",
