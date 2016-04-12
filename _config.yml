@@ -1,0 +1,46 @@
+---
+title: Aurora Perez
+description: Catálogo en internet de Aurora Perez - Argentina.
+relative_permalinks: false
+markdown: kramdown
+url: "http://chooseaproduct.com"
+
+collections:
+  products:
+    output: true
+    permalink: /products/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "products"
+    values:
+      layout: product
+
+exclude:
+  - app.coffee
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - Rakefile
+  - README.md
+  - script
+  - vendor/bundle
+  - test
+  - tests
+  - assets/vendor/selectivizr/tests
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+twitter:
+  username: "@auroraperezarg"

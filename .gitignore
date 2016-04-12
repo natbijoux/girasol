@@ -1,0 +1,13 @@
+.DS_Store
+/_site
+/node_modules
+/.bundle
+assets/vendor/selectivizr/tests
+assets/vendor/qtip2/basic
+/vendor
+/.sass-cache
+.ruby-version
+/tmp
+Gemfile.lock
+.jekyll-metadata
+*~

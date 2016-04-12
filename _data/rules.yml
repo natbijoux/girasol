@@ -1,0 +1,47 @@
+conditions:
+- description: Include a copy of the product and copyright notice with the code.
+  label: License and Copyright Notice
+  tag: include-copyright
+- description: Indicate significant changes made to the code.
+  label: State Changes
+  tag: document-changes
+- description: Source code must be made available when distributing the software.
+  label: Disclose Source
+  tag: disclose-source
+- description: Users who interact with the software via network are given the right to receive a copy of the corresponding source code.
+  label: Network Use is Distribution
+  tag: network-use-disclose
+- description: You must change the name of the software if you modify it.
+  label: Rename
+  tag: rename
+- description: Modifications must be released under the same product when distributing the software. In some cases a similar or related product may be used.
+  label: Same License
+  tag: same-product
+
+permissions:
+- description: This software and derivatives may be used for commercial purposes.
+  label: Commercial Use
+  tag: commercial-use
+- description: This software may be modified.
+  label: Modification
+  tag: modifications
+- description: You may distribute this software.
+  label: Distribution
+  tag: distribution
+- description: You may use and modify the software without distributing it.
+  label: Private Use
+  tag: private-use
+- description: This product provides an express grant of patent rights from the contributor to the recipient.
+  label: Patent Use
+  tag: patent-use
+
+limitations:
+- description: While this may be implicitly true of all products, this product explicitly states that it does NOT grant you any rights in the trademarks or other marks of contributors.
+  label: Trademark Use
+  tag: trademark-use
+- description: Software is provided without warranty and the software author/product owner cannot be held liable for damages.
+  label: Hold Liable
+  tag: no-liability
+- description: This product explicitly states that it does NOT grant you any rights in the patents of contributors.
+  label: Patent Use
+  tag: patent-use

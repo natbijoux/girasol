@@ -1,0 +1,12 @@
+{% include header.html %}
+
+      <div class="clearfix">
+        <div class="product-body">
+          <pre id="product-text">{{ content | replace:"<", "&lt;" | replace:">", "&gt;" }}</pre>
+        </div> <!-- /product-body -->
+
+{% include sidebar.html %}
+
+      </div> <!-- /clearfix -->
+
+{% include footer.html %}
