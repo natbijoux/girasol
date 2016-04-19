@@ -7,21 +7,6 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .triptych {
-    width: 100%;
-  }
-  .triptych li {
-    width: 33%;
-    margin-left: 0;
-    padding: 0 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .triptych h3 {
-    width: auto;
-    padding: 0 30px;
-  }
   .home h2 {
     line-height: 30px;
     padding: 20px 100px;
@@ -50,11 +35,6 @@
 
 /* iPads (portrait) ----------- */
 @media only screen and (max-width : 800px), (max-device-width : 1050px) and (orientation : portrait) {
-  .triptych h3 {
-    width: auto;
-    padding: 0 10px;
-    margin-bottom: 10px;
-  }
   .sidebar {
     float: left;
     width: 50%;
@@ -72,11 +52,6 @@
 
 /* Smartphones  ----------- */
 @media only screen and (max-width : 680px) {
-  .triptych li {
-    float: none;
-    width: 100%;
-    margin-bottom: 50px;
-  }
   .home h2 {
     padding: 20px 70px;
   }

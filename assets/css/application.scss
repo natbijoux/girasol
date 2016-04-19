@@ -4,7 +4,19 @@
 @import "normalize";
 
 
+header {
+  text-align: center;
+}
 
+
+nav {
+  text-align: center;
+  padding: 30px;
+}
+
+.page-link {
+  padding: 10px;
+}
 
 .jumbotron { 
   position: relative;
