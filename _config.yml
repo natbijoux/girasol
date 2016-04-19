@@ -3,7 +3,6 @@ title: Aurora Perez
 description: Catálogo en internet de Aurora Perez - Argentina.
 relative_permalinks: false
 markdown: kramdown
-url: "http://chooseaproduct.com"
 
 collections:
   products:
@@ -19,10 +18,9 @@ defaults:
       layout: product
 
 exclude:
-  - app.coffee
-  - CNAME
   - Gemfile
   - Gemfile.lock
+  - bower.json
   - LICENSE.md
   - Rakefile
   - README.md
@@ -36,7 +34,6 @@ gems:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jekyll-coffeescript
 
 sass:
     sass_dir: _sass
