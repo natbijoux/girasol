@@ -1,0 +1,7 @@
+---
+title: Sweater paisaje
+price: 750
+primaryImageUrl: /assets/img/products/sweater_paisaje_1.jpg
+description: Tejido con lana de la patagonia.
+---
+TODO TODO TODO

@@ -15,7 +15,7 @@ defaults:
       path: ""
       type: "products"
     values:
-      layout: default
+      layout: product
 
 exclude:
   - Gemfile

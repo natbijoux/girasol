@@ -1,0 +1,7 @@
+---
+title: Musculosa duo
+price: 570
+primaryImageUrl: /assets/img/products/musculosa_duo_frente.jpg
+description: Una musculosa compuesta, fabricada con excelentes telas de primera calidad.
+---
+TODO TODO TODO

@@ -1,0 +1,7 @@
+---
+title: Pantalón dulce de leche
+price: 470
+primaryImageUrl: /assets/img/products/pantalon_dulce_de_leche_completo_frente.jpg
+description: Una tentación.
+---
+TODO TODO TODO

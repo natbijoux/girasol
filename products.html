@@ -4,11 +4,14 @@ permalink: products/
 class: product-types
 title: Productos
 ---
-
-{% for product in site.products %}
-
-  {% include product-overview.html product-id="afl-3.0" %}
-
-{% endfor %}
-
-
+<div class="container">
+	<div class="row">
+		{% for product in site.products %}
+			<div class="col-xs-6 col-sm-4 col-md-3">
+				<a class="thumbnail" style="background-image: url({{ product.primaryImageUrl }})" href="{{ product.url }}"></a>
+				<p>{{ product.title }}</p>
+				<p>{{ "$" }} {{ product.price }}</p>
+			</div>
+		{% endfor %}
+	</div>
+</div>

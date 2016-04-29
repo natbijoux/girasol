@@ -1,4 +1,28 @@
-<div class="clearfix">
-	<div class="product-body">
-	<pre id="product-text">{{ content }}</pre>
-</div>
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+<body onload="onLoad()">
+		{% include header.html %}
+		<div class="container">
+				<img id="large-thumbnail" src="{{ page.primaryImageUrl }}" />
+				<p>{{ page.title }}</p>
+				<p>{{ "$" }}{{ page.price }}</p>
+				<p>{{ page.description }}</p>
+		</div>
+		{% include footer.html %}
+
+<!--     <script type="text/javascript">
+        /*<![CDATA[*/
+        function onLoad() {
+
+		{% for imageUrl in imageUrls %}
+            $("#id1").mousemove(function () {
+                document.getElementById("large-product-thumbnail").style = "background-image: url({{ imageUrl }})"
+            });
+		{% endfor %}
+
+        }; /*]]>*/
+    </script>
+ -->
+    	</body>
+</html>
