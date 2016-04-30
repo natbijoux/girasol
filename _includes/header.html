@@ -1,5 +1,5 @@
 <header>
-  <img src="/assets/img/cover2.jpg" />
+  <img src="{{ "/assets/img/cover2.jpg" | prepend: site.baseurl }}" />
   <nav class="site-nav">
     <div class="trigger">
       {% for my_page in site.pages %}

@@ -1,8 +1,10 @@
 ---
 title: Aurora Perez
 description: Catálogo en internet de Aurora Perez - Argentina.
-relative_permalinks: false
+#relative_permalinks: false
 markdown: kramdown
+baseurl: "/girasol" # the subpath of your site, e.g. /blog
+url: "http://tinchodias.github.io" # the base hostname & protocol for your site
 
 collections:
   products:

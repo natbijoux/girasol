@@ -7,7 +7,7 @@
 		<div class="container product">
 			<div class="row">
 				<div class="col-md-6">
-					<img id="large-thumbnail" src="{{ page.primaryImageUrl }}" />
+					<img id="large-thumbnail" src="{{ page.primaryImageUrl | prepend: site.baseurl }}" />
 				</div>
 				<div class="product-info col-md-6">
 					<p>

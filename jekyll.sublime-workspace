@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"di",
 				"div	Tag"
 			],
@@ -32,10 +56,10 @@
 	"buffers":
 	[
 		{
-			"file": "_includes/footer.html",
+			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 722,
+				"buffer_size": 830,
 				"line_ending": "Unix"
 			}
 		}
@@ -134,11 +158,22 @@
 		"/home/tinchodias/dev/girasol2/jekyll/_layouts",
 		"/home/tinchodias/dev/girasol2/jekyll/_products",
 		"/home/tinchodias/dev/girasol2/jekyll/_sass",
+		"/home/tinchodias/dev/girasol2/jekyll/_site",
 		"/home/tinchodias/dev/girasol2/jekyll/assets",
+		"/home/tinchodias/dev/girasol2/jekyll/assets/css",
 		"/home/tinchodias/dev/girasol2/jekyll/assets/vendor"
 	],
 	"file_history":
 	[
+		"/home/tinchodias/dev/girasol2/jekyll/.gitignore",
+		"/home/tinchodias/dev/girasol2/jekyll/_includes/header.html",
+		"/home/tinchodias/dev/girasol2/jekyll/_includes/footer.html",
+		"/home/tinchodias/dev/girasol2/jekyll/_layouts/default.html",
+		"/home/tinchodias/dev/girasol2/jekyll/_layouts/product.html",
+		"/home/tinchodias/dev/girasol2/jekyll/products.html",
+		"/home/tinchodias/dev/girasol2/jekyll/assets/css/application.scss",
+		"/home/tinchodias/dev/girasol2/jekyll/assets/img/logo.jpg",
+		"/home/tinchodias/dev/girasol2/jekyll/_config.yml",
 		"/home/tinchodias/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
 		"/home/tinchodias/.config/sublime-text-3/Packages/BracketHighlighter/Example.sublime-keymap",
 		"/home/tinchodias/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
@@ -155,11 +190,6 @@
 		"/home/tinchodias/Documents/2016-postdoc-inria-ref-11439/subject.bbl",
 		"/home/tinchodias/.config/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
 		"/home/tinchodias/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/tinchodias/dev/girasol2/jekyll/products.html",
-		"/home/tinchodias/dev/girasol2/jekyll/_includes/header.html",
-		"/home/tinchodias/dev/girasol2/jekyll/_includes/footer.html",
-		"/home/tinchodias/dev/girasol2/jekyll/_layouts/product.html",
-		"/home/tinchodias/dev/girasol2/jekyll/assets/css/application.scss",
 		"/home/tinchodias/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/tinchodias/dev/girasol2/notes.txt~"
 	],
@@ -179,6 +209,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"center",
 			"\">\n",
 			"  \n",
 			"Virtualization",
@@ -208,19 +239,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_includes/footer.html",
+					"file": "_config.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 722,
+						"buffer_size": 830,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								722,
-								722
+								273,
+								273
 							]
 						],
 						"settings":
@@ -228,51 +259,11 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -282,9 +273,49 @@
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
 							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
