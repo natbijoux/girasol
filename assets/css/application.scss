@@ -1,33 +1,20 @@
 ---
 ---
 
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 @import "normalize";
 
 
-header {
-  text-align: center;
-}
-
-
-nav {
-  text-align: center;
-  padding: 30px;
-}
-
-.page-link {
-  padding: 10px;
-}
-
-
-
 body {
-  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  font-weight: 700;
+//  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
   background: white;
+  text-align: center;
 }
 
 a {
-//  color: #149ad4;
-//  font-weight: bold;
   text-decoration: none;
 }
 
@@ -35,30 +22,70 @@ a:hover {
   text-decoration: none;
 }
 
+
+
+
+nav {
+  padding: 50px;
+
+  .page-link {
+    padding: 10px;
+    font-size: 120%;
+    text-decoration: overline;
+//    text-transform: uppercase;
+  }
+  .active-page-link {
+    color: #F2668F;
+  }
+  .page-link:hover {
+    color: black;
+  }
+}
+
 .container {
-  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px;
+}
+
+.site-footer {
+  p {
+    font-size: smaller;
+  } 
+  .social {
+    margin: 10px;
+  }
 }
 
 
 
 
-/* Producs page */
+/* Products page */
 
-.thumbnail { 
-  border-radius: 0px;
-  margin-bottom: 0px;
-  height: 250px;
-  text-align: center;
-//  color: white;
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  overflow: hidden;
-}
-
-.col-xs-6, .col-sm-4, .col-md-3 { 
-  padding: 5px;
+.products {
+  .thumbnail { 
+    margin-bottom: 0px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-color: black;
+    overflow: hidden;
+    min-height: 500px;
+    margin-bottom: 10px;
+  }
+  .product-thumbnail {
+    margin-bottom: 20px;
+  }
+  .product-title {
+    text-align: left;
+  }
+  .product-pesos {
+    margin-left: 5px;
+  }
+  .product-price {
+    font-size: larger;
+  }
 }
 
 /* --- */
@@ -67,21 +94,45 @@ a:hover {
 
 /* Product page */
 
-#large-thumbnail { 
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center; 
-  min-height: 300px;
-  max-width: 400px;
-  margin-bottom: 10px;
+$thumbnail-max-width: 400px;
+
+.product {
+  .product-info {
+    text-align: left;
+    margin: auto;
+    max-width: $thumbnail-max-width;
+  }
+  .product-title {
+    font-size: large;
+    display: block;
+  }
+  .product-pesos:before { content: '\A'; }
+  .product-pesos {
+  }
+  .product-price {
+    font-size: larger;
+  }
+  .product-description {
+    display: block;    
+  }
+  #large-thumbnail { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-color: black;
+    border-radius: 3px;
+    min-height: 600px;
+    max-width: $thumbnail-max-width;
+    margin-bottom: 10px;
+  }
+  .mini-thumbnail { 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    min-height: 150px;
+    margin-bottom: 10px;
+  }
 }
-.mini-thumbnail { 
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center; 
-  min-height: 150px;
-  margin-bottom: 10px;
- }
 
 /* --- */
 

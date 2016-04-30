@@ -7,7 +7,7 @@ markdown: kramdown
 collections:
   products:
     output: true
-    permalink: /products/:path/
+    permalink: /prendas/:path/
 
 defaults:
   -
@@ -24,11 +24,12 @@ exclude:
   - LICENSE.md
   - Rakefile
   - README.md
-  - script
   - vendor/bundle
   - test
   - tests
   - assets/vendor/selectivizr/tests
+  - jekyll.sublime-project
+  - jekyll.sublime-workspace
 
 gems:
   - jekyll-sitemap

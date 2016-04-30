@@ -2,16 +2,17 @@
 layout: default
 permalink: products/
 class: product-types
-title: Productos
+title: Prendas
 ---
-<div class="container">
-	<div class="row">
+	<div class="products row">
 		{% for product in site.products %}
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="product-thumbnail col-xs-12 col-sm-6 col-md-4 col-lg-3">
 				<a class="thumbnail" style="background-image: url({{ product.primaryImageUrl }})" href="{{ product.url }}"></a>
-				<p>{{ product.title }}</p>
-				<p>{{ "$" }} {{ product.price }}</p>
+				<p>
+					<span class="product-title">{{ product.title }}</span>
+					<span class="product-pesos">{{ "$" }}</span>
+					<span class="product-price">{{ product.price }}</span>
+				</p>
 			</div>
 		{% endfor %}
 	</div>
-</div>
