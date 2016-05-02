@@ -41,7 +41,13 @@
 				<div class="product-info col-md-3">
 					<p>
 						<span class="product-title">{{ page.title }}</span>
-						<span class="product-pesos">{{ "$" }}</span>
+
+			        {% if page.priceBefore %}
+						<span class="product-pesosSign product-pesosSignBefore">{{ "$" }}</span>
+						<span class="product-price product-priceBefore">{{ page.priceBefore }}</span>
+          			{% endif %}
+
+						<span class="product-pesosSign">{{ "$" }}</span>
 						<span class="product-price">{{ page.price }}</span>
 						<span class="product-description">{{ page.description }}</span>
 					</p>

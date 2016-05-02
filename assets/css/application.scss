@@ -30,15 +30,16 @@ nav {
 
   .page-link {
     padding: 10px;
-    font-size: 120%;
+    font-size: 125%;
+    color: #233539;
     text-decoration: overline;
 //    text-transform: uppercase;
   }
   .active-page-link {
-    color: #F2668F;
+    color: crimson;
   }
   .page-link:hover {
-    color: black;
+    color: green;
   }
 }
 
@@ -58,6 +59,25 @@ nav {
 }
 
 
+
+
+/* Product and products page (common) */
+
+.product-pesosSign {
+  color: green;
+}
+.product-price {
+  color: green;
+}
+.product-pesosSignBefore {
+  color: darkseagreen;
+}
+.product-priceBefore {
+  text-decoration: line-through;
+  color: darkseagreen;
+}
+
+/* --- */
 
 
 /* Products page */
@@ -80,11 +100,17 @@ nav {
   .product-title {
     text-align: left;
   }
-  .product-pesos {
+  .product-pesosSign {
     margin-left: 5px;
   }
   .product-price {
     font-size: larger;
+  }
+  .product-pesosSignBefore {
+    margin-left: 5px;
+  }
+  .product-priceBefore {
+    font-size: inherit;
   }
 }
 
@@ -104,14 +130,16 @@ $thumbnail-border-radius: 3px;
     max-width: $thumbnail-max-width;
   }
   .product-title {
-    font-size: large;
+    font-size: 48px;
     display: block;
   }
-  .product-pesos:before { content: '\A'; }
-  .product-pesos {
-  }
+  .product-pesosSign:before { content: '\A'; }
   .product-price {
-    font-size: larger;
+    font-size: 38px;
+  }
+  .product-priceBefore {
+    font-size: 32px;
+    margin-right: 5px;
   }
   .product-description {
     display: block;    

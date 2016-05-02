@@ -1,6 +1,7 @@
 ---
 title: Sweater paisaje
 price: 600
+priceBefore: 700
 primaryImageUrl: /assets/img/products/sweater_paisaje_1.jpg
 description: Sweater de paisajes discontinuos.
 ---
