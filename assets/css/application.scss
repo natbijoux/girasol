@@ -95,6 +95,7 @@ nav {
 /* Product page */
 
 $thumbnail-max-width: 400px;
+$thumbnail-border-radius: 3px;
 
 .product {
   .product-info {
@@ -120,17 +121,28 @@ $thumbnail-max-width: 400px;
     background-repeat: no-repeat;
     background-position: center center; 
     background-color: black;
-    border-radius: 3px;
+    border-radius: $thumbnail-border-radius;
     min-height: 600px;
     max-width: $thumbnail-max-width;
-    margin-bottom: 10px;
+//    margin-bottom: 5px;
   }
-  .mini-thumbnail { 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center; 
-    min-height: 150px;
-    margin-bottom: 10px;
+  // .mini-thumbnail { 
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   background-position: center center; 
+  //   min-height: 150px;
+  //   margin-bottom: 10px;
+  // }
+  .fb-like {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fb-comments {
+    margin-top: 50px;
+    background-color: rgb(229, 232, 234);
+    border-radius: $thumbnail-border-radius;
   }
 }
 

@@ -1,0 +1,6 @@
+---
+title: Sweater paisaje
+price: 300
+primaryImageUrl: /assets/img/products/remera_spinetta.jpg
+description: Remera de algodón bordada a mano.
+---

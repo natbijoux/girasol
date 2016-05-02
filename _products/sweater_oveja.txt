@@ -1,7 +1,6 @@
 ---
 title: Sweater oveja
-price: 900
+price: 600
 primaryImageUrl: /assets/img/products/sweater_oveja.jpg
-description: Tejido con una super lana de la Patagonia, primerísima calidad.
+description: Sweater tejido a mano con oveja en relieve bordada.
 ---
-TODO TODO TODO

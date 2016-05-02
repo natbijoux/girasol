@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
+<meta property="fb:app_id" content="963834287070310" />
+
 <!-- 	<body onload="onLoad()"> -->
 	<body>
+
+
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '963834287070310',
+		      xfbml      : true,
+		      version    : 'v2.6'
+		    });
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
+
+
 		{% include header.html %}
 		<div class="container product">
 			<div class="row">
-				<div class="col-md-6">
-					<img id="large-thumbnail" src="{{ page.primaryImageUrl | prepend: site.baseurl }}" />
+
+				<div class="col-md-6 col-md-offset-3">
+					<img id="large-thumbnail" src="{{ page.primaryImageUrl | prepend: site.baseurl | prepend: site.url }}" />
+
+
+					<div class="fb-like" data-width="400px" data-href="{{ page.url | prepend: site.baseurl }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+
 				</div>
-				<div class="product-info col-md-6">
+				<div class="product-info col-md-3">
 					<p>
 						<span class="product-title">{{ page.title }}</span>
 						<span class="product-pesos">{{ "$" }}</span>
@@ -18,7 +47,14 @@
 					</p>
 				</div>
 			</div>
+
+
+			<div class="fb-comments" data-href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" data-width="400px" data-numposts="5"></div>
+
+
 		</div>
+
+
 		{% include footer.html %}
 
 <!--     <script type="text/javascript">

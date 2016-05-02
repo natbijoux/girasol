@@ -1,7 +1,0 @@
----
-title: Saco gris
-price: 560
-primaryImageUrl: /assets/img/products/saco_gris_frente.jpg
-description: Una calidad de locos
----
-TODO TODO TODO
