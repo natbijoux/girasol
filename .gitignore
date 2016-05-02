@@ -10,5 +10,6 @@ assets/vendor/qtip2/basic
 /tmp
 Gemfile.lock
 .jekyll-metadata
+jekyll.sublime-project
 jekyll.sublime-workspace
 *~
