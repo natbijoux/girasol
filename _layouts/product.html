@@ -33,10 +33,24 @@
 				<div class="col-md-6 col-md-offset-3">
 					<img id="large-thumbnail" src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" />
 
-
-					<div class="fb-like" data-width="400px" data-href="{{ page.url | prepend: site.baseurl }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-
-
+<div class="share-buttons-wrapper clearfix">
+	<!--
+							<span class='st_facebook_hcount' displayText='Facebook'></span>
+							<span class='st_pinterest_hcount' displayText='Pinterest'></span>
+							<span class='st_twitter_hcount' displayText='Tweet'></span>
+							<span class='st_googleplus_hcount' displayText='Google +'></span>
+					</div>
+					<div class="fb-like" data-width="400px" data-href="{{ page.url | prepend: site.baseurl }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
+	-->
+	<div class="fb-share-button" data-href="{{ page.image | prepend: site.baseurl | prepend: site.url }}" data-layout="button" data-mobile-iframe="true"></div>
+	<script
+	type="text/javascript"
+	async defer
+	src="//assets.pinterest.com/js/pinit.js"
+	></script>
+	<a data-pin-do="buttonBookmark" href="https://www.pinterest.com/pin/create/button/"></a>
+</div>
+				
 				</div>
 				<div class="product-info col-md-3">
 					<p>

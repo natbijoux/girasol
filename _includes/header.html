@@ -4,9 +4,8 @@
   <nav>
     <div class="trigger">
       {% if page.previous.url %}
-        <a class="page-navigation" title="{{page.previous.title}}" href="{{page.previous.url | prepend: site.baseurl }}">
-          &laquo;-
-        </a>
+        <a class="glyphicon glyphicon-chevron-left page-navigation" title="{{page.previous.title}}" href="{{page.previous.url | prepend: site.baseurl }}"></a>
+
       {% endif %}
 
       {% for each in site.pages %}
@@ -18,9 +17,7 @@
       {% endfor %}
 
       {% if page.next.url %}
-        <a class="page-navigation" title="{{page.next.title}}" href="{{page.next.url | prepend: site.baseurl }}">
-          -&raquo;
-        </a>
+        <a class="glyphicon glyphicon-chevron-right page-navigation" title="{{page.next.title}}" href="{{page.next.url | prepend: site.baseurl }}"></a>
       {% endif %}
     </div>
   </nav>
