@@ -11,11 +11,11 @@ title: Prendas
 					<span class="product-title">{{ each.title }}</span>
 
 			        {% if each.priceBefore %}
-						<span class="product-pesosSign product-pesosSignBefore">{{ "$" }}</span>
+						<span class="product-currency product-currencyBefore">{{ "$" }}</span>
 						<span class="product-price product-priceBefore">{{ each.priceBefore }}</span>
           			{% endif %}
 
-					<span class="product-pesosSign">{{ "$" }}</span>
+					<span class="product-currency">{{ "$" }}</span>
 					<span class="product-price">{{ each.price }}</span>
 				</p>
 			</div>

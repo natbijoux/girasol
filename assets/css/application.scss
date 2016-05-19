@@ -92,13 +92,13 @@ footer {
 
 /* Product and products page (common) */
 
-.product-pesosSign {
+.product-currency {
   color: green;
 }
 .product-price {
   color: green;
 }
-.product-pesosSignBefore {
+.product-currencyBefore {
   color: darkseagreen;
 }
 .product-priceBefore {
@@ -129,13 +129,13 @@ footer {
   .product-title {
     text-align: left;
   }
-  .product-pesosSign {
+  .product-currency {
     margin-left: 5px;
   }
   .product-price {
     font-size: larger;
   }
-  .product-pesosSignBefore {
+  .product-currencyBefore {
     margin-left: 5px;
   }
   .product-priceBefore {
@@ -159,7 +159,7 @@ footer {
     font-size: 48px;
     display: block;
   }
-  .product-pesosSign:before { content: '\A'; }
+  .product-currency:before { content: '\A'; }
   .product-price {
     font-size: 38px;
   }
