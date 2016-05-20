@@ -1,25 +1,7 @@
 <header>
-  <img src="{{ "/assets/img/cover2.jpg" | prepend: site.baseurl }}" />
+  <img src="{{ "/assets/img/cover.jpg" | prepend: site.baseurl }}" />
 
   <nav>
-    <div class="trigger">
-      {% if page.previous.url %}
-        <a class="glyphicon glyphicon-chevron-left page-navigation" title="{{page.previous.title}}" href="{{page.previous.url | prepend: site.baseurl }}"></a>
-
-      {% endif %}
-
-      {% for each in site.pages %}
-        {% if each.title %}
-          <a class="page-link {% if each.url == page.url %}active-page-link{% endif %}" href="{{ each.url | prepend: site.baseurl }}">
-            {{ each.title }}
-          </a>
-        {% endif %}
-      {% endfor %}
-
-      {% if page.next.url %}
-        <a class="glyphicon glyphicon-chevron-right page-navigation" title="{{page.next.title}}" href="{{page.next.url | prepend: site.baseurl }}"></a>
-      {% endif %}
-    </div>
   </nav>
 
 </header>

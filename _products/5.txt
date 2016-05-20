@@ -1,0 +1,4 @@
+---
+title: Pulsera con borla blanca
+image: /assets/img/products/5.JPG
+---

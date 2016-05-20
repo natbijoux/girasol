@@ -1,6 +1,0 @@
----
-title: Musculosa pina
-price: 300
-image: /assets/img/products/remera_pina_frente.jpg
-description: Musculosa con 3 prendedores de Cerámica Pina.
----

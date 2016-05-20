@@ -1,6 +1,0 @@
----
-title: Sweater oveja
-price: 600
-image: /assets/img/products/sweater_oveja.jpg
-description: Sweater tejido a mano con oveja en relieve bordada.
----

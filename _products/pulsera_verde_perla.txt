@@ -1,0 +1,4 @@
+---
+title: Pulsera verde perla
+image: /assets/img/products/pulseraverdeperla.jpg
+---

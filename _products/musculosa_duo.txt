@@ -1,6 +1,0 @@
----
-title: Musculosa dúo
-price: 300
-image: /assets/img/products/musculosa_duo_frente.jpg
-description: Musculosa crepe con botón en espalda + Top calado de hilo negro.
----

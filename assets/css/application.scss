@@ -1,21 +1,19 @@
 ---
 ---
-
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 @import "normalize";
 
 
 $cool-max-width: 400px;
-$cool-border-radius: 3px;
+$cool-border-radius: 6px;
 
 
 
 body {
-  font-family: 'Amatic SC', cursive;
-  font-size: 24px;
-  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
 //  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background: white;
+  background: #EDE7DB;
   text-align: center;
 }
 
@@ -35,6 +33,7 @@ a:hover {
 header {
   width: $cool-max-width;
   margin: auto;
+  margin-top: 50px;
 
   .glyphicon-chevron-left {
     margin-right: 35px;
@@ -115,12 +114,12 @@ footer {
   .thumbnail { 
     margin-bottom: 0px;
     text-align: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center; 
-    background-color: gray;
+    background-color: white;
     overflow: hidden;
-    min-height: 500px;
+    min-height: 350px;
     margin-bottom: 10px;
   }
   .product-thumbnail {
@@ -133,7 +132,7 @@ footer {
     margin-left: 5px;
   }
   .product-price {
-    font-size: larger;
+//    font-size: larger;
   }
   .product-currencyBefore {
     margin-left: 5px;

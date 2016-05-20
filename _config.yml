@@ -1,12 +1,10 @@
 ---
-title: Aurora Perez
-description: Catálogo en internet de Aurora Perez - Argentina.
+title: Nat bijoux
+description: Catálogo en internet de Nat bijoux.
 baseurl: "/girasol" # the subpath of your site, e.g. /blog
-url: "http://tinchodias.github.io" # the base hostname & protocol for your site
+url: "http://natbijoux.github.io" # the base hostname & protocol for your site
 
-facebook_username: "AuroraPerezArgentina"
-pinterest_username: "auroraperezarg"
-instagram_username: "auroraperezindumentaria"
+facebook_username: "Natbijoux.ar"
 
 collections:
   products:

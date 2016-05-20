@@ -1,6 +1,0 @@
----
-title: Saco gris bordado
-price: 800
-image: /assets/img/products/saco_gris_frente.jpg
-description: Saco largo abotonado
----
