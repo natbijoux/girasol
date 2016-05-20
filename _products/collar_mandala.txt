@@ -1,0 +1,4 @@
+---
+title: Collar mandala
+image: /assets/img/products/scan0007.jpg
+---

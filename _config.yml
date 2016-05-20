@@ -1,0 +1,46 @@
+---
+title: Nat bijoux
+description: Catálogo en internet de Nat bijoux.
+baseurl: "/girasol" # the subpath of your site, e.g. /blog
+url: "http://natbijoux.github.io" # the base hostname & protocol for your site
+
+facebook_username: "Natbijoux.ar"
+
+collections:
+  products:
+    output: true
+    permalink: /prendas/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "products"
+    values:
+      layout: product
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - bower.json
+  - LICENSE.md
+  - Rakefile
+  - README.md
+  - vendor/bundle
+  - test
+  - tests
+  - assets/vendor/selectivizr/tests
+  - jekyll.sublime-project
+  - jekyll.sublime-workspace
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+

@@ -1,0 +1,219 @@
+---
+---
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import "normalize";
+
+
+$cool-max-width: 400px;
+$cool-border-radius: 6px;
+
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
+//  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: #EDE7DB;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #233539;
+}
+
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+
+
+
+header {
+  width: $cool-max-width;
+  margin: auto;
+  margin-top: 50px;
+
+  .glyphicon-chevron-left {
+    margin-right: 35px;
+  }
+  .glyphicon-chevron-right {
+    margin-left: 35px;
+  }
+
+  nav {
+    padding-top: 50px;
+    padding-bottom: 50px;
+//    display: inline-block;
+
+    .page-link {
+      padding: 10px;
+      font-size: 125%;
+      text-decoration: overline;
+    }
+    .active-page-link {
+      color: crimson;
+    }
+  }
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 950px;
+  }
+
+  .site-footer {
+    p {
+      font-size: smaller;
+    } 
+    .social {
+      margin: 10px;
+    }
+  }
+}
+
+footer {
+  margin: 100px auto auto auto;
+  width: $cool-max-width;
+
+  .mini-about {
+    margin: auto auto 100px auto;
+
+    .avatar {
+      border-radius: 50%;
+      width: 100px;
+    }
+  }
+}
+
+
+
+/* Product and products page (common) */
+
+.product-currency {
+  color: green;
+}
+.product-price {
+  color: green;
+}
+.product-currencyBefore {
+  color: darkseagreen;
+}
+.product-priceBefore {
+  text-decoration: line-through;
+  color: darkseagreen;
+}
+
+/* --- */
+
+
+/* Products page */
+
+.products {
+  .thumbnail { 
+    margin-bottom: 0px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-color: white;
+    overflow: hidden;
+    min-height: 350px;
+    margin-bottom: 10px;
+  }
+  .product-thumbnail {
+    margin-bottom: 20px;
+  }
+  .product-title {
+    text-align: left;
+  }
+  .product-currency {
+    margin-left: 5px;
+  }
+  .product-price {
+//    font-size: larger;
+  }
+  .product-currencyBefore {
+    margin-left: 5px;
+  }
+  .product-priceBefore {
+    font-size: inherit;
+  }
+}
+
+/* --- */
+
+
+
+/* Product page */
+
+.product {
+  .product-info {
+    text-align: left;
+    margin: auto;
+    max-width: $cool-max-width;
+  }
+  .product-title {
+    font-size: 48px;
+    display: block;
+  }
+  .product-currency:before { content: '\A'; }
+  .product-price {
+    font-size: 38px;
+  }
+  .product-priceBefore {
+    font-size: 32px;
+    margin-right: 5px;
+  }
+  .product-description {
+    display: block;    
+  }
+  #large-thumbnail { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-color: gray;
+    border-radius: $cool-border-radius;
+    min-height: 600px;
+    max-width: $cool-max-width;
+//    margin-bottom: 5px;
+  }
+  // .mini-thumbnail { 
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   background-position: center center; 
+  //   min-height: 150px;
+  //   margin-bottom: 10px;
+  // }
+  .share-buttons-wrapper {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fb-comments {
+    margin-top: 50px;
+    background-color: rgb(229, 232, 234);
+    border-radius: $cool-border-radius;
+  }
+}
+
+/* --- */
+
+
+
+
+
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+

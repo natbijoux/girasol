@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+<!-- 	<body onload="onLoad()"> -->
+	<body>
+
+
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '963834287070310',
+		      xfbml      : true,
+		      version    : 'v2.6'
+		    });
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/es_LA/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
+
+
+		{% include header.html %}
+		<div class="container product">
+
+			<div class="row">
+
+				<div class="col-md-6 col-md-offset-3">
+					<img id="large-thumbnail" src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" />
+
+<div class="share-buttons-wrapper clearfix">
+	<!--
+							<span class='st_facebook_hcount' displayText='Facebook'></span>
+							<span class='st_pinterest_hcount' displayText='Pinterest'></span>
+							<span class='st_twitter_hcount' displayText='Tweet'></span>
+							<span class='st_googleplus_hcount' displayText='Google +'></span>
+					</div>
+					<div class="fb-like" data-width="400px" data-href="{{ page.url | prepend: site.baseurl }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
+	-->
+	<div class="fb-share-button" data-href="{{ page.image | prepend: site.baseurl | prepend: site.url }}" data-layout="button" data-mobile-iframe="true"></div>
+	<script
+	type="text/javascript"
+	async defer
+	src="//assets.pinterest.com/js/pinit.js"
+	></script>
+	<a data-pin-do="buttonBookmark" href="https://www.pinterest.com/pin/create/button/"></a>
+</div>
+				
+				</div>
+				<div class="product-info col-md-3">
+					<p>
+						<span class="product-title">{{ page.title }}</span>
+
+			        {% if page.priceBefore %}
+						<span class="product-currency product-currencyBefore">{{ "$" }}</span>
+						<span class="product-price product-priceBefore">{{ page.priceBefore }}</span>
+          			{% endif %}
+
+						<span class="product-currency">{{ "$" }}</span>
+						<span class="product-price">{{ page.price }}</span>
+						<span class="product-description">{{ page.description }}</span>
+					</p>
+				</div>
+			</div>
+
+
+			<div class="fb-comments" data-href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" data-width="400px" data-numposts="5"></div>
+
+
+		</div>
+
+
+		{% include footer.html %}
+
+<!--     <script type="text/javascript">
+        /*<![CDATA[*/
+        function onLoad() {
+
+		{% for imageUrl in imageUrls %}
+            $("#id1").mousemove(function () {
+                document.getElementById("large-product-thumbnail").style = "background-image: url({{ imageUrl }})"
+            });
+		{% endfor %}
+
+        }; /*]]>*/
+    </script>
+ -->
+    	</body>
+</html>

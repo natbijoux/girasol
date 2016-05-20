@@ -1,0 +1,4 @@
+---
+title: Collar con borla blanca
+image: /assets/img/products/2.JPG
+---

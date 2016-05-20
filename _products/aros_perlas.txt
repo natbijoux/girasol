@@ -1,0 +1,4 @@
+---
+title: Aros perlas
+image: /assets/img/products/detallearosperlas.jpg
+---
