@@ -18,12 +18,20 @@ permalink: /
 		{% endfor %}
 	</div>
 </div>
-<script>
-  var container = document.querySelector('#grid');
-  var masonry = new Masonry(container, {
-    columnWidth: 320,
-    itemSelector: '.grid-item',
-    fitWidth: true,
-	transitionDuration: '0.2s'
-  });
+<script type="text/javascript">
+
+//	var $boxes = $('.grid-item');
+//    $boxes.hide();
+
+	// init Masonry
+	var $grid = $('#grid').masonry({
+	    columnWidth: 320,
+	    itemSelector: '.grid-item',
+	    fitWidth: true,
+		transitionDuration: '0.2s'
+	});
+	// layout Masonry after each image loads
+	$grid.imagesLoaded().progress( function() {
+    	$grid.masonry('layout');
+	});
 </script>
