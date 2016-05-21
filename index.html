@@ -20,8 +20,8 @@ permalink: /
 </div>
 <script type="text/javascript">
 
-//	var $boxes = $('.grid-item');
-//    $boxes.hide();
+	var $boxes = $('.grid-item');
+    $boxes.hide();
 
 	// init Masonry
 	var $grid = $('#grid').masonry({
@@ -32,6 +32,7 @@ permalink: /
 	});
 	// layout Masonry after each image loads
 	$grid.imagesLoaded().progress( function() {
+	    $boxes.fadeIn();
     	$grid.masonry('layout');
 	});
 </script>
