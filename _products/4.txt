@@ -1,4 +1,4 @@
 ---
-title: Conjunto de borlas blancas
+title: Conjunto borla blanca
 image: /assets/img/products/4.JPG
 ---
