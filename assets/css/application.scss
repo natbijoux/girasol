@@ -1,7 +1,7 @@
 ---
 ---
 @import "normalize";
-
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 $cool-max-width: 400px;
 $cool-border-radius: 6px;
@@ -9,7 +9,7 @@ $cool-border-radius: 6px;
 
 
 body {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 1.5em;
   background: #EDE7DB;
   text-align: center;
@@ -32,7 +32,7 @@ header {
   width: $cool-max-width;
   margin: auto;
   margin-top: 75px;
-  margin-bottom: 75px;
+  margin-bottom: 85px;
 
   .glyphicon-chevron-left {
     margin-right: 35px;
@@ -59,32 +59,34 @@ header {
   .container {
     margin-right: auto;
     margin-left: auto;
-    max-width: 950px;
-  }
-
-  .site-footer {
-    p {
-      font-size: smaller;
-    } 
-    .social {
-      margin: 10px;
-    }
+    //max-width: 950px;
   }
 }
 
 footer {
-  margin: 100px auto auto auto;
-  width: $cool-max-width;
+  margin: 75px 0 0 0;
+  padding: 15px;
+  background-color: white;
+}
 
-  .mini-about {
-    margin: auto auto 100px auto;
-
-    .avatar {
-      border-radius: 50%;
-      width: 100px;
-    }
+.site-footer {
+  p {
+    font-size: smaller;
+  } 
+  .social {
+    margin: 10px;
   }
 }
+
+// /* 3 columns by default */
+// .grid-sizer { width: 350px; }
+// @media screen and (min-width: 768px) {
+//   /* 5 columns for larger screens */
+//   .grid-sizer { width: 500px; }
+//   .grid-item {
+//     width: 450px;
+//   }
+// }
 
 
 

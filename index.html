@@ -8,10 +8,12 @@ permalink: /
 	<div id="grid" >
 		{% for each in site.products %}
 			<div class="thumbnail grid-item">
+			<a href="http://www.facebook.com/{{ site.facebook_username }}">
 				<img src="{{ each.image | prepend: site.baseurl }}"/>
-				<p>
-					<span class="product-title">{{ each.title }}</span>
-				</p>
+			</a>
+			<p>
+				<span class="product-title">{{ each.title }}</span>
+			</p>				
 			</div>
 		{% endfor %}
 	</div>
