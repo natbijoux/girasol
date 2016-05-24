@@ -20,9 +20,8 @@ image: /assets/img/cover200x200.png
 	</div>
 </div>
 <script type="text/javascript">
-
-	var $boxes = $('.grid-item');
-    $boxes.hide();
+	var $gridItems = $('.grid-item');
+    $gridItems.hide();
 
 	// init Masonry
 	var $grid = $('#grid').masonry({
@@ -33,7 +32,7 @@ image: /assets/img/cover200x200.png
 	});
 	// layout Masonry after each image loads
 	$grid.imagesLoaded().progress( function() {
-	    $boxes.fadeIn();
+	    $gridItems.fadeIn();
     	$grid.masonry('layout');
 	});
 </script>
